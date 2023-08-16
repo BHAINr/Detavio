@@ -4,7 +4,7 @@ const axios = require('axios');
 const cheerio = require('cheerio');
 const Product = require('../models/productModels');
 
-//get data from flipcart url  in backend
+//get data from flipcart url and post in mongodb
 
 exports.getProductDetailsFromUrl = catchAsyncError(async (req, res, next) => {
 
